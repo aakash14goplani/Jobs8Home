@@ -1,0 +1,89 @@
+<!--we will make a simple accordian with hover effects 
+The markup will have a list with images and the titles-->
+<html>
+<head>
+<title> Jobs8Home </title>
+<link rel="icon" href="img/cube.jpg" type="image/x-icon" /> 
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<style>
+table,th
+{
+margin-top:25px;
+margin-left:225px;
+background-color:white;
+width:900px;
+}
+a:link
+{
+color:#3366CC;
+text-decoration:none;
+}
+a:hover
+{
+color:black;
+}
+body
+{
+background-image:url('img/bg.jpg');
+}
+</style>
+</head>              
+
+<body>
+<img src="img/logo1.png" style="margin-left:300px;">
+<a href="rss.xml">
+<img src="http://www.w3schools.com/rss/rss.gif" width="36" height="14" target="_blank">
+</a>
+<table>
+<tr>
+<th> <a href="#">Home</a> </th>
+<th> <a href="about.html"> About us </a> </th>
+<th> <a href="register.html"> Register </a> </th>
+<th> <a href="opp.html"> Opportunities </a> </th>
+<th> <a href="wall.html"> Wall of Fame </a> </th>
+</tr>
+</table>
+<div class="accordian">
+	<ul>
+		<li>
+			<div class="image_title">
+				<a href="#">About Us</a>
+			</div>
+			<a href="about.html">
+				<img src="img/abt.jpg"/>
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#">Connect</a>
+			</div>
+			<a href="register.html">
+				<img src="img/register-here.jpg"/>
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#">Oppurtunities</a>
+			</div>
+			<a href="opp.html">
+				<img src="img/opp.png"/>
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#">Wall of Fame</a>
+			</div>
+			<a href="wall.html">
+				<img src="img/wall.png"/>
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#">Contact Us</a>
+			</div>
+				<img src="img/enquiry_banner.jpg"/>
+		</li>
+	</ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+h1
+{
+	color:#F00;
+	padding-top:40;
+	padding-bottom:40;
+	text-align:center;	
+}
+h2
+{
+	color:#F00;
+	font-size:24px;
+	text-align:center;	
+}
+h3
+{
+	color:#000;
+	font-size:24px;
+	text-align:left;	
+}
+name
+{
+	color:#F00;
+	font-size:24px;
+	text-align:left;
+}
+a
+{
+	text-decoration:none;	
+}
+a:link /* unvisited link */
+{
+	color: #00F;
+}			
+a:visited /* visited link */
+{
+	color: #00F;
+}
+a:hover /* mouse over link */
+{
+	color: #F00;
+	text-decoration:underline;
+}			
+a:active /* selected link */
+{
+	color: #0F0;
+}
+th, td
+{
+	text-align:left;
+	font-size:22px;
+}
+div 
+{
+    background-color: white;
+    width: 300px;
+    padding: 100px;
+	border:5px double red;
+	border-radius: 25px;
+    margin: 100px 550px 50px 550px;
+}

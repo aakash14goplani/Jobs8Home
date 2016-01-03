@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Jobs8Home</title>
+  <link>http://jobsathome.zz.mu</link>
+  <description>Free Company Reviews</description>
+  <item>
+    <title>Accenture Review</title>
+    <link>http://localhost/jobs8home/accenture.html</link>
+    <description>New review about Accenture has been added.</description>
+  </item>
+  <item>
+    <title>Deloitte Review</title>
+    <link>http://localhost/jobs8home/deloitte.html</link>
+    <description>New review about Deloitte has been added.</description>
+  </item>
+  <item>
+    <title>Microsoft Review</title>
+    <link>http://localhost/jobs8home/microsoft.html</link>
+    <description>New review Microsoft has been added.</description>
+  </item>
+</channel>
+
+</rss>
